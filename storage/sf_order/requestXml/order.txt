@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Request service="OrderService" lang="cn_ZH">
+    <Head>YAYXKJ</Head>
+    <Body>
+        <Order orderid="TEST1569306301" express_type="1" j_province="&#x5E7F;&#x4E1C;&#x7701;" j_city="&#x6DF1;&#x5733;&#x5E02;" j_county="&#x798F;&#x7530;&#x533A;" j_company="&#x987A;&#x4E30;&#x901F;&#x8FD0;" j_contact="&#x5C0F;&#x4E30;" j_tel="95338" j_address="&#x65B0;&#x6D32;&#x5341;&#x4E00;&#x8857;&#x4E07;&#x57FA;&#x5546;&#x52A1;&#x5927;&#x53A6;" d_province="&#x5E7F;&#x4E1C;&#x7701;" d_city="&#x6DF1;&#x5733;&#x5E02;" d_county="&#x5357;&#x5C71;&#x533A;" d_company="&#x987A;&#x4E30;&#x79D1;&#x6280;" d_contact="&#x5C0F;&#x987A;" d_tel="4008111111" d_address="&#x5B66;&#x5E9C;&#x8DEF;&#x8F6F;&#x4EF6;&#x4EA7;&#x4E1A;&#x57FA;&#x5730;1&#x680B;B&#x5EA7;" parcel_quantity="1" cargo_total_weight="1" custid="7551234567" pay_method="1" routelabelService="1" sendstarttime="2012-7-30 09:30:00" is_docall="1">
+            <Cargo name="&#x7ED3;&#x77F3;"/>
+        </Order>
+    </Body>
+</Request>

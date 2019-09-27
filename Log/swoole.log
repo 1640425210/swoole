@@ -1,0 +1,73 @@
+[2019-09-20 12:27:22 *1782.5]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 144 byte failed, because connection[fd=1] is closed
+[2019-09-20 17:35:46 #11255.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-20 17:35:46 $11256.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-20 17:35:46 *11264.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-20 17:35:46 *11262.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-20 17:35:46 *11259.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-20 17:35:46 *11258.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-20 17:35:46 $11256.0]	WARNING	swManager_check_exit_status: worker#11[pid=11268] abnormal exit, status=0, signal=1
+[2019-09-20 17:35:46 *11263.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-20 17:35:46 *11261.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-20 17:35:46 *11257.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-20 17:35:46 *11260.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-20 17:35:46 $11256.0]	WARNING	swManager_check_exit_status: worker#10[pid=11267] abnormal exit, status=0, signal=1
+[2019-09-20 17:35:46 $11256.0]	WARNING	swManager_check_exit_status: worker#9[pid=11266] abnormal exit, status=0, signal=1
+[2019-09-20 17:35:46 $11256.0]	WARNING	swManager_check_exit_status: worker#8[pid=11265] abnormal exit, status=0, signal=1
+[2019-09-20 17:35:54 #11255.6]	INFO	Server is shutdown now
+[2019-09-23 14:37:20 *43363.5]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught TypeError: Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /Users/youan03/Documents/swoole/App/HttpController/Index.php on line 106 and defined in /Users/youan03/Documents/swoole/vendor/easyswoole/http/src/Response.php:76
+Stack trace:
+#0 /Users/youan03/Documents/swoole/App/HttpController/Index.php(106): EasySwoole\Http\Response->write(Array)
+#1 {main}
+  thrown in /Users/youan03/Documents/swoole/vendor/easyswoole/http/src/Response.php on line 76
+[2019-09-23 14:37:20 $43357.0]	WARNING	swManager_check_exit_status: worker#5[pid=43363] abnormal exit, status=255, signal=0
+[2019-09-23 17:48:30 *45383.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-23 17:48:30 *45381.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-23 17:48:30 *45380.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-23 17:48:30 *45379.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-23 17:48:30 *45377.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-23 17:48:30 *45382.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-23 17:48:30 *45378.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-23 17:48:30 #45374.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-23 17:48:30 *45376.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-23 17:48:30 $45375.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-23 17:48:30 $45375.0]	WARNING	swManager_check_exit_status: worker#11[pid=45387] abnormal exit, status=0, signal=1
+[2019-09-23 17:48:30 $45375.0]	WARNING	swManager_check_exit_status: worker#10[pid=45386] abnormal exit, status=0, signal=1
+[2019-09-23 17:48:30 $45375.0]	WARNING	swManager_check_exit_status: worker#9[pid=45385] abnormal exit, status=0, signal=1
+[2019-09-23 17:48:30 $45375.0]	WARNING	swManager_check_exit_status: worker#8[pid=45384] abnormal exit, status=0, signal=1
+[2019-09-23 17:48:39 #45374.6]	INFO	Server is shutdown now
+[2019-09-24 18:18:22 $5775.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-24 18:18:22 *5783.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-24 18:18:22 *5782.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-24 18:18:22 *5779.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-24 18:18:22 *5780.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-24 18:18:22 *5778.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-24 18:18:22 *5777.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-24 18:18:22 #5774.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-24 18:18:22 *5781.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-24 18:18:22 *5776.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-24 18:18:22 $5775.0]	WARNING	swManager_check_exit_status: worker#14[pid=5790] abnormal exit, status=0, signal=1
+[2019-09-24 18:18:22 $5775.0]	WARNING	swManager_check_exit_status: worker#13[pid=5789] abnormal exit, status=0, signal=1
+[2019-09-24 18:18:22 $5775.0]	WARNING	swManager_check_exit_status: worker#12[pid=5788] abnormal exit, status=0, signal=1
+[2019-09-24 18:18:22 $5775.0]	WARNING	swManager_check_exit_status: worker#11[pid=5787] abnormal exit, status=0, signal=1
+[2019-09-24 18:18:22 $5775.0]	WARNING	swManager_check_exit_status: worker#10[pid=5786] abnormal exit, status=0, signal=1
+[2019-09-24 18:18:22 $5775.0]	WARNING	swManager_check_exit_status: worker#9[pid=5785] abnormal exit, status=0, signal=1
+[2019-09-24 18:18:22 $5775.0]	WARNING	swManager_check_exit_status: worker#8[pid=5784] abnormal exit, status=0, signal=1
+[2019-09-24 18:18:35 #5774.6]	INFO	Server is shutdown now
+[2019-09-26 17:38:33 *4157.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-26 17:38:33 *4156.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-26 17:38:33 *4155.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-26 17:38:33 *4153.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-26 17:38:33 *4154.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-26 17:38:33 *4152.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-26 17:38:33 *4150.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-26 17:38:33 #4148.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-26 17:38:33 *4151.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-26 17:38:33 $4149.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-09-26 17:38:33 $4149.0]	WARNING	swManager_check_exit_status: worker#14[pid=4164] abnormal exit, status=0, signal=1
+[2019-09-26 17:38:33 $4149.0]	WARNING	swManager_check_exit_status: worker#13[pid=4163] abnormal exit, status=0, signal=1
+[2019-09-26 17:38:33 $4149.0]	WARNING	swManager_check_exit_status: worker#12[pid=4162] abnormal exit, status=0, signal=1
+[2019-09-26 17:38:33 $4149.0]	WARNING	swManager_check_exit_status: worker#11[pid=4161] abnormal exit, status=0, signal=1
+[2019-09-26 17:38:33 $4149.0]	WARNING	swManager_check_exit_status: worker#10[pid=4160] abnormal exit, status=0, signal=1
+[2019-09-26 17:38:33 $4149.0]	WARNING	swManager_check_exit_status: worker#9[pid=4159] abnormal exit, status=0, signal=1
+[2019-09-26 17:38:33 $4149.0]	WARNING	swManager_check_exit_status: worker#8[pid=4158] abnormal exit, status=0, signal=1
+[2019-09-26 17:38:46 #4148.6]	INFO	Server is shutdown now
